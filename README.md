@@ -1,5 +1,5 @@
 # Reactive binary downloader
-Download assets as binary and be reactively informed when asset is ready.
+Download assets as binary and be reactively informed when assets are ready.
 
 ## Installation
 ```bash
