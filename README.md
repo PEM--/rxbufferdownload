@@ -29,6 +29,9 @@ Tracker.autorun ->
     content2 = rxAsset2.getBuffer()
 ```
 
+## API
+[API](doc/api.md)
+
 ## Links
 * [Buffer](https://nodejs.org/api/buffer.html)
 * [EventedMind's WaitList](https://www.eventedmind.com/feed/the-reactive-waitlist-data-structure)

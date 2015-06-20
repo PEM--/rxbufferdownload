@@ -1,9 +1,12 @@
 ###*
- * A reactive binary asset downloader.
+ * # A reactive binary asset downloader
+ *
  * This class inherits from ReactiveVar.
  * Downloads are performed using the XMLHttpRequest v2 method with a type
  * set on 'arraybuffer'.
+ *
  * It requires:
+ *
  * - Buffer: The same NodeJS package for the browser).
  * - ArrayBufferToBuffer: A transformation function from ArrayBuffer
  *   into Buffer.
@@ -36,7 +39,9 @@ class @RxBufferDownload extends ReactiveVar
   getBuffer: -> ArrayBufferToBuffer @resp
 
 ###*
- * Force Buffer in the global scope.
+ * # Buffer
+ *
+ * Buffer is exposed in browser's global scope.
 ###
 Meteor.startup ->
   window.Buffer = window.buffer.Buffer
