@@ -2,7 +2,7 @@
 
 <!-- Start rxBufferDownload.coffee -->
 
-# A reactive binary asset downloader.
+# RxBufferDownload: A reactive binary asset downloader
 
 This class inherits from ReactiveVar.
 Downloads are performed using the XMLHttpRequest v2 method with a type
@@ -39,7 +39,7 @@ Get the content of the downloaded asset as a Buffer (see NodeJS).
 
 * **Buffer** Content of the downloaded asset.
 
-# Buffer.
+# Buffer
 
 Buffer is exposed in browser's global scope.
 

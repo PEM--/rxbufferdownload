@@ -1,5 +1,5 @@
 ###*
- * # A reactive binary asset downloader
+ * # RxBufferDownload: A reactive binary asset downloader
  *
  * This class inherits from ReactiveVar.
  * Downloads are performed using the XMLHttpRequest v2 method with a type
