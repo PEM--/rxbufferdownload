@@ -15,7 +15,7 @@ Tracker.autorun ->
     content = rxAsset.getBuffer()
 ```
 
-### Multiple download
+### Multiple downloads
 ```coffee
 # Use the WaitList from iron:controller
 waitList = new Iron.WaitList
